@@ -1,19 +1,14 @@
-- name: Longest Word Game
+- name: Ozei
+  description: Decent description of the app
+  image: projects/ozei.png
+  url: https://www.ozei.fun/
+
+- name: Fluffy Friends Finder
   description: Decent description of the app
   image: projects/placeholder.png
-  url: https://www.google.com
+  url: https://fluffy-friends-forever.herokuapp.com/
 
 - name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-
-- name: Final project
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
