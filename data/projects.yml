@@ -1,14 +1,17 @@
 - name: Ozei
-  description: Decent description of the app
+  description: Last minutes booking for group of people
   image: projects/ozei.png
+  gh_url: https://github.com/kimurayumixy/rails-ozei
   url: https://www.ozei.fun/
 
 - name: Fluffy Friends Finder
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/fluffy.png
+  gh_url: https://github.com/kimurayumixy/fluffy_friends_finder
   url: https://fluffy-friends-forever.herokuapp.com/
 
 - name: Movie Watchlist
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: projects/movie.png
+  gh_url: https://github.com/kimurayumixy/rails-watch-list
   url: https://www.google.com
