@@ -1,17 +1,17 @@
 - name: Ozei
   description: Last minutes booking for group of people
-  image: projects/ozei.png
+  image: projects/Ozei.png
   gh_url: https://github.com/kimurayumixy/rails-ozei
   url: https://www.ozei.fun/
 
 - name: Fluffy Friends Finder
   description: Matches pet owner and those who wants to take care of pets.
-  desktop_image: projects/fluffy.png
+  image: projects/fluffy.png
   gh_url: https://github.com/kimurayumixy/fluffy_friends_finder
   url: https://fluffy-friends-forever.herokuapp.com/
 
 - name: Movie Watchlist
   description: You can create your own bookmarks and store your favorite movies.
-  desktop_image: projects/movie.png
+  image: projects/movie.png
   gh_url: https://github.com/kimurayumixy/rails-watch-list
   url: https://www.google.com
