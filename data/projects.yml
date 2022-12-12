@@ -1,5 +1,5 @@
 - name: Ozei
-  description: Last minutes booking for group of people
+  description: Ozei enables you to book a table for a group of people right away.
   image: projects/Ozei.png
   gh_url: https://github.com/kimurayumixy/rails-ozei
   url: https://www.ozei.fun/

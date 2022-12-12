@@ -5,29 +5,75 @@
 
 .project {
   display: flex;
+  animation-name: fadeUpAnime;
+  animation-duration:1s;
+  animation-fill-mode:forwards;
+  opacity:0;
 }
+
+.container {
+  animation-name: fadeUpAnime;
+  animation-duration:1s;
+  animation-fill-mode:forwards;
+  opacity:0;
+}
+
+
+@keyframes fadeUpAnime{
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 .project-infos {
   margin: auto;
   margin-left: 20px;
+  color: #6c757d;
 }
 .project img {
   width: 300px;
 }
 
-h1 {
-  color: #6c757d;
+.about_me {
+  color: #F4F9F9;
 }
 
 h2 {
   color: #6c757d;
 }
 
-p {
+#about p {
   color: #6c757d;
 }
 
 .project-url a {
+  position: relative;
+  display: inline-block;
   text-decoration: none;
   color: #6c757d;
+}
+
+.project-url a::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #6c757d;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.project-url a:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
 }
