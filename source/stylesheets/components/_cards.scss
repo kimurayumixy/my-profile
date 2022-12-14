@@ -11,9 +11,10 @@
   opacity:0;
 }
 
-@media(max-width:500px){
+// responsive
+@media(max-width:750px){
   .project {
-      display:block;/*コレ*/
+    display:block;
   }
 }
 
