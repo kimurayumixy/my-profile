@@ -11,12 +11,23 @@
   opacity:0;
 }
 
+.projects-letter {
+  margin-bottom: 20px;
+}
+
 // responsive
 @media(max-width:750px){
   .project {
     display:block;
   }
 }
+
+@media(max-width:750px){
+  .project-image {
+    margin-bottom: 20px;
+  }
+}
+
 
 .container {
   animation-name: fadeUpAnime;
