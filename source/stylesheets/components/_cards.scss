@@ -11,6 +11,12 @@
   opacity:0;
 }
 
+@media(max-width:500px){
+  .project {
+      display:block;/*コレ*/
+  }
+}
+
 .container {
   animation-name: fadeUpAnime;
   animation-duration:1s;
